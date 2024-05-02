@@ -17,7 +17,7 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
 
-Worst-case runtime: $\Theta (|E| \cdot |E|!) where E is the number of edges in the graph
+Worst-case runtime: $\Theta (|E| \cdot |E|!)$ where $E$ is the number of edges in the graph
 
 Reasoning:
-For every vertice, we are generating all possible permutations of the connections (|E|!) and then comparing that permutation against the values in the second graph (|E|). It will do this regardless of case.
+For every vertice, we are generating all possible permutations of the connections ($|E|!$) and then comparing that permutation against the values in the second graph ($|E|$). It will do this regardless of case.
