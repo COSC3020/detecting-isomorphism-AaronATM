@@ -80,26 +80,3 @@ function checkMatching (graph1Node, graph2, node)
 
     return true;
 }
-
-// temporary testing code
-// used test graphs from my graph search and dijkstras
-
-testGraph1 = [[1, 5], [0, 2, 3, 4], [1], [1, 4, 6], [1, 3], [0], [3]];
-testGraph2 = [[5, 1], [4, 3, 0, 2], [1], [4, 1, 6], [3, 1], [0], [3]];
-
-testGraph3 = [[1, 2], [0, 2, 3], [0, 1, 3], [1, 2]];
-testGraph4 = [[2, 1], [3, 0, 2], [1, 0, 3], [1, 2]];
-
-// looking for true
-var result1 = are_isomorphic(testGraph1, testGraph2);
-var result2 = are_isomorphic(testGraph3, testGraph4);
-
-// looking for false
-var result3 = are_isomorphic(testGraph1, testGraph4);
-var result4 = are_isomorphic(testGraph2, testGraph3);
-
-// print
-console.log(result1);
-console.log(result2);
-console.log(result3);
-console.log(result4);
